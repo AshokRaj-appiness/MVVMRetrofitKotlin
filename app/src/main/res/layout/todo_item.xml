@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/text_view_style"
+            android:id="@+id/text_view"
+            android:text="place holder text"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="status"
+            android:id="@+id/tv_status"
+            android:padding="4dp"
+            android:textStyle="bold"/>
+
+</LinearLayout>
